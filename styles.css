@@ -1,0 +1,64 @@
+body {
+	padding: 20px;
+	margin: auto;
+	background-color: #ccebff;
+	text-align: center;
+	font-family: fantasy;
+	max-width: 960px;
+}
+
+#reference {
+background-image: url(beach.png)
+}
+
+#photonotes {
+	text-align: right;
+}
+
+img {
+	margin: auto;
+	width: 100%;
+}
+
+#somefacts{
+	margin: auto;
+	max-width: 55%;
+
+}
+
+.li {
+	text-align: left;
+}
+
+table {
+	margin: auto;
+	border: 4px solid grey;
+	border-style: ridge;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+  td, th{
+    border: 1px solid black;
+    padding: 2px;
+  }
+
+a{
+	color: #a3a375;
+}
+
+a.highlight:hover {
+	color: #0052cc;
+}
+
+@media screen and (max-width: 500px) {
+ 	h1 {
+	font-size: 1.5em;
+	}
+	h2 {
+	font-size: 1em;
+	}
+	tr, td, th{
+	font-size: .9em;
+	}
+}
